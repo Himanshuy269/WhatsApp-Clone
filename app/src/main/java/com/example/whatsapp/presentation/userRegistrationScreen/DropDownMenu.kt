@@ -1,4 +1,4 @@
-package com.example.whatsapp.userRegistrationScreen
+package com.example.whatsapp.presentation.userRegistrationScreen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Spacer
@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.HorizontalDivider
@@ -26,7 +27,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.whatsapp.ui.theme.DarkGreen
 import com.example.whatsapp.ui.theme.LightGreen
-import androidx.compose.material3.ButtonDefaults
 
 @Composable
 fun dropDownMenu() {

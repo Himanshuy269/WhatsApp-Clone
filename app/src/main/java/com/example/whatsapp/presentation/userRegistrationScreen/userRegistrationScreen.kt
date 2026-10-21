@@ -1,4 +1,4 @@
-package com.example.whatsapp.userRegistrationScreen
+package com.example.whatsapp.presentation.userRegistrationScreen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -32,7 +32,7 @@ fun UserRegistrationScreen() {
             text = "Enter your phone number",
             color = Color(0xFF008069),
             fontSize = 20.sp,
-            fontWeight = FontWeight.Bold
+            fontWeight = FontWeight.Bold    
         )
         Spacer(modifier = Modifier.height(14.dp))
         Row {

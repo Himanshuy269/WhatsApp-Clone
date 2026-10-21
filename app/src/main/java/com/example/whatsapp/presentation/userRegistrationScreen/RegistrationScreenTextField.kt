@@ -1,4 +1,4 @@
-package com.example.whatsapp.userRegistrationScreen
+package com.example.whatsapp.presentation.userRegistrationScreen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -38,6 +38,8 @@ fun TextFieldRS(){
                 modifier=Modifier.width(70.dp),singleLine=true,
                 textStyle = LocalTextStyle.current.copy(fontSize = 18.sp),
                 colors = TextFieldDefaults.colors(
+                    focusedTextColor = Color(0xFF111B21),
+                    unfocusedTextColor = Color(0xFF111B21),
                     unfocusedContainerColor = Color.Transparent,
                     focusedContainerColor = Color.Transparent,
                     unfocusedIndicatorColor = LightGreen,
@@ -50,6 +52,8 @@ fun TextFieldRS(){
                 placeholder = {Text(text="Phone Number")},
                 modifier=Modifier.width(150.dp),singleLine=true,
                 colors = TextFieldDefaults.colors(
+                    focusedTextColor = Color(0xFF111B21),
+                    unfocusedTextColor = Color(0xFF111B21),
                     unfocusedContainerColor = Color.Transparent,
                     focusedContainerColor = Color.Transparent,
                     unfocusedIndicatorColor = LightGreen,
